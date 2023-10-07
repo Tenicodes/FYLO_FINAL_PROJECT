@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* VARIABLES!
+    THIS HELPS ONE TO LIMIT THE AMOUNT OF REPETITIVE VARIOUS IN A CODE. It helps to limit the amount of codes.
+    The ROOT ELEMENT is used to store variables so that when we want to call up our variables, 
+    we call up the variable name by making use of double hyphens, variable name and value.
+    This is used with common values such as font-sizes, colors, */
+
+
+:root {
+    /* --background: red; */
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark_blue: hsl(249, 10%, 26%);
+    --grayish_blue: hsl(246, 25%, 77%);
+}
+
+body {
+    /* background: var(--red); */
+    background: var(--grayish_blue);
+    background-image:url("./images/bg-intro-desktop.png");
+    /* background: linear-gradient(hsl(0, 100%, 74%)), url('./images/bg-intro-desktop.png') cover no-repeat; */
+}
+
+.container{
+    padding: 1rem 5rem 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.left, .right{
+    width: 50%;
+    
+}
+.left > h1{
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 70%;
+}
+.left > p{
+    color: #fff;
+    line-height: 1.5rem; 
+    font-size: 16px;
+    width: 70%;
+}
+
+.left{
+    margin: 5% auto 5% auto;
+
+}
+
+h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.description{
+    background: var(--blue);
+    padding: 0.5rem;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300px;
+    box-shadow: 0 0.3rem .3rem rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+.right > form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0.3rem .3rem rgba(0, 0, 0, .7);
+}
+
+.right > form > input{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 16px;
+    outline:none;
+    border: 1px solid var(--grayish_blue);
+    border-radius: 3px;
+}
+.right > form > input:hover{
+    border: 1px solid var(--dark_blue);
+}
+.right > form > input[type='submit']{
+    background: var(--green);
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 .1rem hsl(154, 61%, 46%);
+}
+
+.right > form > p{
+    font-size: 16px;
+    text-align: center;
+    color: var(--grayish_blue);
+}
+
+.right > form > p > span{
+    color: var(--red);
+    font-weight: 600;
+}
+
+.right > p > span{
+   color: var(--grayish_blue);
+   font-weight: 400;
+
+}
+.right > form > input::placeholder{
+    font-weight: 600;
+}
+
+ /* FOURTH SECTION FOOTER */
+
+ 
+
+@media(max-width: 600px){
+    /* body{
+        background-image: url('./images/bg-intro-mobile.png');
+        padding: 0;
+        text-align: center;
+    } */
+    .container{
+        flex-direction: column;
+    }
+    .left, .right{
+        width: 100%;
+    }
+    .left{
+        margin-bottom: 2rem;
+        text-align: center;
+        margin-right: 0;
+        padding: 0;
+    }
+    .left > p{
+        width: 100%;
+    }
+    .left > h1{
+        width: 100%;
+    }
+
+
+}

@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', 'karla';
+   
+}
+:root{
+    --dark_violet: hsl(256, 26%, 20%);
+    --grayish_blue: hsl(216, 30%, 68%);
+    --very_dark_violet: hsl(270, 9%, 17%);
+    --dark_grayish_violet: hsl(273, 4%, 51%);
+    --very_light_gray: hsl(0, 0%, 98%);
+}
+
+body{
+    background-image: url("./images/bg-pattern-intro-left-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left top;
+}
+
+/* .features-page{
+    background-image: url("./images/bg-pattern-intro-left-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left top;
+  
+} */
+.features-heading{
+    font-family: 'DM Serif Display';
+    font-weight: 700;
+    padding: 2rem 0 0 0;
+    margin: 0 0 0 0;
+    width: 100%;
+    font-size: 25px;
+}
+
+.container{
+    padding: 5rem;
+    
+}
+.features-heading{
+    font-family: 'DM Serif Display';
+    font-weight: 700;
+    padding: 5rem 0 0 5rem;
+    margin: 0 0 0 0;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+.features{
+    width: 100%;
+    
+}
+.features-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.features-one{
+    width: 100%;
+}
+.features-one img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.features-one h1{
+    font-family: 'DM Serif Display';
+    font-weight: 700;
+    font-size: 25px;
+}
+.features-one p{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    width: 70%;
+}
+.features-two{
+    width: 100%;
+}
+.features-two img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.features-two h1{
+    font-family: 'DM Serif Display';
+    font-weight: 700;
+    font-size: 25px;   
+}
+.features-two p{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    width:75%;
+}
+
+.features-three{
+    width: 100%;
+}
+.features-three img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.features-three h1{
+    font-family: 'DM Serif Display';
+    font-weight: 700;
+    font-size: 25px;   
+}
+.features-three p{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    width: 70%;
+}
+
+
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0 3rem 3rem 2rem;
+    }
+    .features-heading{
+        font-family: 'DM Serif Display';
+        font-weight: 700;
+        padding: 2rem 0 0 0;
+        margin: 0 0 0 0;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .features{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+    }
+    .features-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        text-align: center; 
+    }
+    .features-one{
+        width: 100%;
+    }
+    .features-one img{
+        width: 50px;
+        align-items: center;
+        margin: 20px 0 10px 0;
+    }
+    
+    .features-one p{
+        font-family: 'Karla';
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+    .features-two{
+        width: 100%;
+    }
+    .features-two img{
+        width: 50px;
+        margin: 20px 0 10px 0;
+    }
+    .features-two p{
+        font-family: 'Karla';
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+    .features-three{
+        width: 100%;
+    }
+    .features-three img{
+        width: 50px;
+        margin: 20px 0 10px 0;
+    }
+    .features-three p{
+        font-family: 'Karla';
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+}
