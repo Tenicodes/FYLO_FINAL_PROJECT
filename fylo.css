@@ -598,19 +598,20 @@ p{
     .fourth-section{
         width: 100%;
         padding-left: 0;
-        padding-top: 2rem;
+        padding-top: 2.5rem;
         justify-content: center;
         align-items: center;
         color: white;
         overflow-x: hidden;
-        padding: 1rem; 
+        padding-left: 1rem;
+        
     }
     .fourth-section-content{
         width: 100%;
         padding-left: 0%;
         display: inline;
         color: white; 
-        
+        padding: 1rem;
     }
     .fourth-one{
         padding-bottom: 20px;

@@ -135,6 +135,7 @@ h1{
     } */
     .container{
         flex-direction: column;
+        padding: 1rem;
     }
     .left, .right{
         width: 100%;
