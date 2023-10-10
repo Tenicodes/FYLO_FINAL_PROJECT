@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-    padding: 1rem;
-} */
+body{
+   padding: 0;
+   margin: 0;
+   overflow-x: hidden;
+}
 
 /* body{
     padding: 4rem; 
@@ -297,13 +299,14 @@ p{
     padding-left: 4rem;
     padding-top: 3rem;
     color: var(--white);
-
-  
+    width: 100%;
 }
 .fourth-section > div > img{
-    color: var(--white);
+    filter: opacity(0.5), drop-shadow(0, 0, #fff);
+    color: (0, 0, #fff, 0.5);
 }
 .fourth-section-content{
+    width: 100%;
     margin-top: 0.5rem;
     display: flex;
     align-items: center;
@@ -313,33 +316,34 @@ p{
 .fourth-one{
     width: 100%;
     line-height: 2rem;
+    padding-right: 2%;
 }
 
 .fourth-two{ 
     width: 100%;
     color: var(--white);
-    padding-left: 5%;
+    padding-left: 10%;
 }
 .fourth-two > ul > li{
     list-style-type: none;
     line-height: 2rem;
 }
 .fourth-three{
-    /* width: 50%; */
+    width: 100%;
     color: var(--white);
-    padding-left: 25%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 3%;
 }
 .fourth-three > ul > li{
-    width: 150%;
+    width: 100%;
     list-style-type: none;
     line-height: 2rem;
 }
 .fourth-four{
-    width: 300%;
+    width: 100%;
     color: var(--white);
-    padding-left:15%;
-    padding-right: 4rem;
+    padding-left: 5%;
+    padding-right: 1rem;
     flex-direction: column;
     color: white;
 }
@@ -370,7 +374,7 @@ p{
     }
     nav .fa-bars{
         display: block;
-        margin-right: 1rem;
+        padding-right: 1rem;
     }
     .nav-links{
         display: none;
@@ -538,7 +542,6 @@ p{
             width: 100%;
             padding: 0;
             max-width: 100%;
-        min-width: 100%;
     }
     .third-section-left{
         margin: 0%;
@@ -552,7 +555,7 @@ p{
         padding: 0;
         line-height:3rem;
         font-weight: 700;
-        margin-left: 20px;
+        padding-left: 20px;
         margin-top: 10px;
 
     }
@@ -579,7 +582,7 @@ p{
     .third-section-right > input[type='submit']{
         width: 70%;
         margin-bottom: 40px;
-        margin-left: 40px;
+        padding-left: 40px;
         margin-top: 0;
 
     }
@@ -592,17 +595,14 @@ p{
         width: 100%;
         justify-content: center;
         align-items: center;
-        height: 100%;
         color: white;
         overflow-x: hidden;
-
     }
     .fourth-section-content{
         width: 100%;
         padding-left: 0%;
         display: inline;
-        color: white;  
-       
+        color: white;     
     }
     .fourth-one{
         padding-bottom: 20px;
@@ -622,8 +622,12 @@ p{
         padding-left: 0;
         padding-right: 0;
     }
+    .fourth-four{
+        padding-top: 1.5rem;
+    }
     .fourth-four > .fa-bars{
         color: var(--white);
+        padding-top: 2rem;
         padding-bottom: 5rem;
         padding-bottom: 2rem;
     }
