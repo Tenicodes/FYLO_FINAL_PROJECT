@@ -363,7 +363,7 @@ p{
         text-align: center;
         margin: 0;
     } */
-    
+   
     .logo{
         margin-top: 30px;
         margin-left: 10px;
@@ -423,7 +423,7 @@ p{
         width: 100%;
         justify-content: center;
         padding-right: 1rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
         padding-left: 0;
         padding-left: 0;
         text-align: center;
@@ -433,10 +433,12 @@ p{
         justify-content: 100%;
         margin-right: 0;
         width: 100%;
+        padding: .5rem
      }
     .first-section-left > h1{
         width: 100%;
         height: 5%;
+        font-size: x-large;
         line-height: 2.5rem;
         font-weight: 700;
         text-align: center;
@@ -468,63 +470,69 @@ p{
     .second-section {
         flex-direction: column-reverse;
         width: 100%;
-        justify-content: center;
         background-image: url('./images/bg-curve-mobile.svg');
         background-repeat: no-repeat;
-        background-repeat: no-repeat;
-        background-position: center top;
-        object-fit:contain;   
+        background-position: center top; 
+        padding-top: 2rem; 
     }
 
     .second-section-content{
         flex-direction: column-reverse;
         width: 100%;
         margin: 0;
-        background-image: url("./images/bg-curve-mobile.svg");
-        background-repeat: no-repeat;
+        background-color: var(--);
         background-repeat: no-repeat;
         background-position: center top;
         object-fit:contain;
-        padding: 10px 0 0 0;
+        padding: .5rem;
     }
     .second-section-left > h1{
         width: 100%;
-        margin: 10px 0 10px 0 ;
-        padding: 0;
+        margin: 0;
+        padding: 25px 0 0 0 ;
         line-height: 2.5rem;
         font-weight: 700;
         text-align: center;
+        font-size: 23px;
     }
     .second-section-left > p{
         width: 95%;
-        margin: 0 ;
+        margin: 15px 0 0 0;
         line-height: 1.5rem;
         font-weight: 400;
         margin-bottom: 10px;
-        text-align: center;
+        text-align: start;
     }
     .second-section-left > .second-card{
-        margin-top: 10px;
-        margin-bottom: 40px;
-        width: 70%;
-        height: 30%;
+        width: 80%;
+        margin: 10%;
+        height: 50%;
         padding: 5px;
-        line-height: 1rem;
         letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 12px;
         font-family: 'Open Sans', sans-serif;
         background: var(--white);
         color: var(--desaturated_blue);
     }
+    .second-section-left > .second-card > div > div > img{
+    width: 20%;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 0;
+}
     .second-section-left{
         margin-top: 0;
         padding: 0;
         text-align:center;
         width: 100%;
     }
+    .second-section-left > div{
+        margin-bottom: 10px;
+    }
     .second-section-right{
         margin: 0;
-        padding: 10px 50px 0 0;    
+        padding: 0;    
     }
     .second-section-right > img{
         margin-bottom: 0%;
@@ -540,8 +548,9 @@ p{
     .third-section-content{
         flex-direction: column;
         width: 100%;
-        padding: 0;
         text-align: center;
+        padding: 1rem;
+        }
     }
     .third-section-left{
         margin: 0%;
@@ -588,18 +597,19 @@ p{
 
     .fourth-section{
         width: 100%;
-        padding-left: 20px;
+        padding-left: 0;
         padding-top: 2rem;
         justify-content: center;
         align-items: center;
         color: white;
         overflow-x: hidden;
+        padding: 1rem; 
     }
     .fourth-section-content{
         width: 100%;
         padding-left: 0%;
         display: inline;
-        color: white;     
+        color: white; 
     }
     .fourth-one{
         padding-bottom: 20px;
