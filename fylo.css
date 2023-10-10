@@ -433,7 +433,7 @@ p{
         justify-content: 100%;
         margin-right: 0;
         width: 100%;
-        padding: .5rem
+        padding: 1rem
      }
     .first-section-left > h1{
         width: 100%;
@@ -480,23 +480,22 @@ p{
         flex-direction: column-reverse;
         width: 100%;
         margin: 0;
-        background-color: var(--);
         background-repeat: no-repeat;
         background-position: center top;
         object-fit:contain;
-        padding: .5rem;
+        padding: 1rem;
     }
     .second-section-left > h1{
         width: 100%;
         margin: 0;
         padding: 25px 0 0 0 ;
-        line-height: 2.5rem;
+        line-height: 2rem;
         font-weight: 700;
         text-align: center;
-        font-size: 23px;
+        font-size: 21px;
     }
     .second-section-left > p{
-        width: 95%;
+        width: 100%;
         margin: 15px 0 0 0;
         line-height: 1.5rem;
         font-weight: 400;
@@ -513,6 +512,7 @@ p{
         font-family: 'Open Sans', sans-serif;
         background: var(--white);
         color: var(--desaturated_blue);
+        
     }
     .second-section-left > .second-card > div > div > img{
     width: 20%;
@@ -520,6 +520,7 @@ p{
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 0;
+    
 }
     .second-section-left{
         margin-top: 0;
@@ -550,7 +551,6 @@ p{
         width: 100%;
         text-align: center;
         padding: 1rem;
-        }
     }
     .third-section-left{
         margin: 0%;
@@ -610,6 +610,7 @@ p{
         padding-left: 0%;
         display: inline;
         color: white; 
+        
     }
     .fourth-one{
         padding-bottom: 20px;
