@@ -311,14 +311,14 @@ p{
     padding-bottom: 3rem;
 }
 .fourth-one{
-    width: 500%;
+    width: 100%;
     line-height: 2rem;
 }
 
 .fourth-two{ 
     width: 100%;
     color: var(--white);
-    margin-left: 5%;
+    padding-left: 5%;
 }
 .fourth-two > ul > li{
     list-style-type: none;
@@ -327,8 +327,8 @@ p{
 .fourth-three{
     /* width: 50%; */
     color: var(--white);
-    margin-left: 25%;
-    margin-right: 5%;
+    padding-left: 25%;
+    padding-right: 5%;
 }
 .fourth-three > ul > li{
     width: 150%;
@@ -338,8 +338,8 @@ p{
 .fourth-four{
     width: 300%;
     color: var(--white);
-    margin-left:15%;
-    margin-right: 4rem;
+    padding-left:15%;
+    padding-right: 4rem;
     flex-direction: column;
     color: white;
 }
@@ -471,8 +471,7 @@ p{
         background-repeat: no-repeat;
         background-position: center top;
         object-fit:contain;
-        max-width: 100%;
-        min-width: 100%;
+       
     }
 
     .second-section-content{
@@ -484,8 +483,6 @@ p{
         background-repeat: no-repeat;
         background-position: center top;
         object-fit:contain;
-        max-width: 100%;
-        min-width: 100%;
     }
     .second-section-left > h1{
         width: 100%;
@@ -599,42 +596,41 @@ p{
         align-items: center;
         height: 100%;
         color: white;
-        max-width: 100%;
-        min-width: 100%;
+        overflow-x: hidden;
+
     }
     .fourth-section-content{
         width: 100%;
-        margin-left: 0%;
+        padding-left: 0%;
         display: inline;
         color: white;  
-        max-width: 100%;
-        min-width: 100%;
+       
     }
     .fourth-one{
-        margin-bottom: 20px;
+        padding-bottom: 20px;
         margin-right: 0;
-        margin-top: 20px;
+        padding-top: 20px;
     }
     .fourth-two{
-        margin-bottom: 10px;
-        margin-right: 0;
-        margin-top: 10px;
-        margin-left: 0;
+        padding-bottom: 10px;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-left: 0;
     }
     .fourth-three{
-        margin-bottom: 20px;
-        margin-right: 0;
-        margin-top: 20px;
-        margin-left: 0;
-        margin-right: 0;
+        padding-bottom: 20px;
+        padding: 0;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .fourth-four > .fa-bars{
         color: var(--white);
         padding-bottom: 5rem;
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
     }
     .attribution{
-        margin: 50px 50px 0 10px;
+        padding: 50px 50px 0 10px;
         justify-content: center;
     }
 }
