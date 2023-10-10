@@ -624,12 +624,11 @@ p{
     }
     .fourth-four{
         padding-top: 1.5rem;
+        padding-left: 5rem;  
     }
     .fourth-four > .fa-bars{
         color: var(--white);
         padding-top: 2rem;
-        padding-bottom: 5rem;
-        padding-bottom: 2rem;
     }
     .attribution{
         padding: 50px 50px 0 10px;
